@@ -4,5 +4,5 @@
 ## See the file COPYING for copying conditions.
 
 if [ -x /usr/libexec/tb-default-browser/tb_default_browser.sh ]; then
-   . /usr/libexec/tb-default-browser/tb_default_browser.sh
+   . /usr/libexec/tb-default-browser/tb_default_browser.sh >/dev/null 2>/dev/null
 fi
